@@ -1,6 +1,6 @@
-def imageName="192.168.44.44:8082/docker_local/frontend"
-def dockerRegistry="https://192.168.44.44:8082"
-def registryCredentials="artifactory"
+def imageName="seroslaw/panda-frontend"
+def dockerRegistry=""
+def registryCredentials="Dockerhub"
 def dockerTag=""
 
 pipeline {
